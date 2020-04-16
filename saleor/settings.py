@@ -16,7 +16,7 @@ import environ
 
 ROOT_DIR = Path(__file__).parents[1]
 env = environ.Env()
-env.read_env(str(ROOT_DIR / ".env"))
+env.read_env(str(ROOT_DIR / "environ.env"))
 
 def get_list(text):
     return [item.strip() for item in text.split(",")]
@@ -24,7 +24,7 @@ def get_list(text):
 
 def get_bool_from_env(name, default_value):
     if name in env:
-        value = env[name]
+        value = env(name)
         try:
             return ast.literal_eval(value)
         except ValueError as e:
@@ -32,7 +32,7 @@ def get_bool_from_env(name, default_value):
     return default_value
 
 
-DEBUG = get_bool_from_env("DEBUG", False)
+DEBUG = get_bool_from_env("DEBUG", True)
 
 SITE_ID = 1
 
