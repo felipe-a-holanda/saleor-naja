@@ -2,7 +2,7 @@
 # Copyright (C) 2017 Mirumee Software
 # This file is distributed under the same license as the Saleor package.
 # Mirumee Software <hello@mirumee.com>, 2017.
-# 
+#
 # Translators:
 # tuan mai <maituan251094@gmail.com>, 2018
 # Chung Hien Hoang <hoangchunghien@gmail.com>, 2018
@@ -11,20 +11,21 @@
 # Trong Lam Phan <lampt2509@gmail.com>, 2019
 # Khoa <lnxkhoa@gmail.com>, 2019
 # Duc Dang <dangtrungduc17895@gmail.com>, 2019
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-17 04:57-0500\n"
+"POT-Creation-Date: 2020-04-16 14:06-0300\n"
 "PO-Revision-Date: 2017-02-09 15:43+0000\n"
 "Last-Translator: Duc Dang <dangtrungduc17895@gmail.com>, 2019\n"
-"Language-Team: Vietnamese (https://www.transifex.com/mirumee/teams/34782/vi/)\n"
+"Language-Team: Vietnamese (https://www.transifex.com/mirumee/teams/34782/"
+"vi/)\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: saleor/dashboard/category/filters.py:8
@@ -56,15 +57,15 @@ msgstr[0] "Tìm thấy %(counter)d danh mục tương ứng"
 
 #: saleor/dashboard/category/forms.py:27
 #: saleor/dashboard/collection/forms.py:26
-#: saleor/dashboard/discount/forms.py:93 saleor/dashboard/product/forms.py:100
-#: saleor/dashboard/product/forms.py:267 saleor/dashboard/product/forms.py:508
-#: saleor/dashboard/sites/forms.py:54
+#: saleor/dashboard/discount/forms.py:105 saleor/dashboard/product/forms.py:122
+#: saleor/dashboard/product/forms.py:300 saleor/dashboard/product/forms.py:564
+#: saleor/dashboard/sites/forms.py:62
 msgctxt "Item name"
 msgid "Name"
 msgstr "Tên"
 
-#: saleor/dashboard/category/forms.py:28 saleor/dashboard/product/forms.py:249
-#: saleor/dashboard/product/forms.py:458 saleor/dashboard/sites/forms.py:29
+#: saleor/dashboard/category/forms.py:28 saleor/dashboard/product/forms.py:275
+#: saleor/dashboard/product/forms.py:514 saleor/dashboard/sites/forms.py:31
 msgctxt "Description"
 msgid "Description"
 msgstr "Mô tả"
@@ -198,20 +199,17 @@ msgctxt "Collection message"
 msgid "Deleted collection"
 msgstr "Xoá bộ sưu tập"
 
-#: saleor/dashboard/customer/filters.py:17
-#: saleor/dashboard/staff/filters.py:16
+#: saleor/dashboard/customer/filters.py:17 saleor/dashboard/staff/filters.py:16
 msgctxt "Customer list sorting option"
 msgid "email"
-msgstr "email"
+msgstr "\bemail"
 
-#: saleor/dashboard/customer/filters.py:19
-#: saleor/dashboard/staff/filters.py:18
+#: saleor/dashboard/customer/filters.py:19 saleor/dashboard/staff/filters.py:18
 msgctxt "Customer list sorting option"
 msgid "name"
 msgstr "tên"
 
-#: saleor/dashboard/customer/filters.py:22
-#: saleor/dashboard/staff/filters.py:21
+#: saleor/dashboard/customer/filters.py:22 saleor/dashboard/staff/filters.py:21
 msgctxt "Customer list sorting option"
 msgid "location"
 msgstr "địa điểm"
@@ -253,62 +251,62 @@ msgid "Found %(counter)d matching customer"
 msgid_plural "Found %(counter)d matching customers"
 msgstr[0] "Tìm thấy %(counter)dkhách hàng"
 
-#: saleor/dashboard/customer/forms.py:11
+#: saleor/dashboard/customer/forms.py:12
 #, python-format
 msgctxt "Customer form: Name field placeholder"
 msgid "%(name)s (Inherit from default billing address)"
 msgstr ""
 
-#: saleor/dashboard/customer/forms.py:30
+#: saleor/dashboard/customer/forms.py:31
 msgctxt "Edit customer details in order form error"
 msgid ""
 "You can't delete your own account via dashboard, please try from the "
 "storefront."
 msgstr ""
-"Bạn không thể tự xóa tài khoản của mình trong màn hình quản trị, bạn hãy thử"
-" khi ở màn hình ngoài."
+"Bạn không thể tự xóa tài khoản của mình trong màn hình quản trị, bạn hãy thử "
+"khi ở màn hình ngoài."
 
-#: saleor/dashboard/customer/forms.py:38
+#: saleor/dashboard/customer/forms.py:39
 msgctxt "Edit customer details in order form error"
 msgid "Only superuser can delete his own account."
 msgstr "Chỉ người quản trị cấp cao mới có thể tự xóa tài khoản của mình."
 
-#: saleor/dashboard/customer/forms.py:46
+#: saleor/dashboard/customer/forms.py:47
 msgctxt "Edit customer details in order form error"
 msgid "You have insufficient permissions, to edit staff users."
 msgstr "Bạn không có đủ quyền, để sửa tài khoản nhân viên."
 
-#: saleor/dashboard/customer/forms.py:104 saleor/dashboard/staff/forms.py:30
+#: saleor/dashboard/customer/forms.py:106 saleor/dashboard/staff/forms.py:30
 msgctxt "Customer form: Given name field"
 msgid "Given name"
 msgstr "Tên"
 
-#: saleor/dashboard/customer/forms.py:107 saleor/dashboard/staff/forms.py:33
+#: saleor/dashboard/customer/forms.py:109 saleor/dashboard/staff/forms.py:33
 msgctxt "Customer form: Family name field"
 msgid "Family name"
 msgstr "Họ"
 
-#: saleor/dashboard/customer/forms.py:109
+#: saleor/dashboard/customer/forms.py:111
 msgctxt "Customer form: email address field"
 msgid "Email"
-msgstr "Email"
+msgstr "\bEmail"
 
-#: saleor/dashboard/customer/forms.py:110
+#: saleor/dashboard/customer/forms.py:112
 msgctxt "Customer form: customer note field"
 msgid "Notes"
 msgstr "Ghi chú"
 
-#: saleor/dashboard/customer/forms.py:112
+#: saleor/dashboard/customer/forms.py:114
 msgctxt "Customer form: is active toggle"
 msgid "User is active"
 msgstr "Người dùng đã kích hoạt"
 
-#: saleor/dashboard/customer/forms.py:123
+#: saleor/dashboard/customer/forms.py:125
 msgctxt "Customer note"
 msgid "Note"
 msgstr "Ghi chú"
 
-#: saleor/dashboard/customer/forms.py:125
+#: saleor/dashboard/customer/forms.py:127
 msgctxt "Allow customers to see note toggle"
 msgid "Customer can see this note"
 msgstr "Khách hàng có thể xem ghi chú này."
@@ -387,9 +385,12 @@ msgid "used"
 msgstr "sử dụng"
 
 #: saleor/dashboard/discount/filters.py:33
+#, fuzzy
+#| msgctxt "Order discount amount fixed value"
+#| msgid "Discount amount"
 msgctxt "Voucher list sorting option"
-msgid "min_amount_spent"
-msgstr "số_tiền_thấp_nhất"
+msgid "min_spent_amount"
+msgstr "Số lượng giảm giá"
 
 #: saleor/dashboard/discount/filters.py:38
 msgctxt "Sale type filter choice"
@@ -475,57 +476,57 @@ msgid "Found %(counter)d matching voucher"
 msgid_plural "Found %(counter)d matching vouchers"
 msgstr[0] "Tìm thấy %(counter)d phiếu giảm giá"
 
-#: saleor/dashboard/discount/forms.py:22
+#: saleor/dashboard/discount/forms.py:25
 msgctxt "Lowest value for order to be able to use the voucher"
 msgid "Apply only if the purchase value is greater than or equal to"
 msgstr "Áp dụng nếu số tiền thanh toán bằng hoặc lớn hơn "
 
-#: saleor/dashboard/discount/forms.py:32
+#: saleor/dashboard/discount/forms.py:35
 msgctxt "Discounted products"
 msgid "Discounted products"
 msgstr "Sản phẩm giảm giá"
 
-#: saleor/dashboard/discount/forms.py:39
+#: saleor/dashboard/discount/forms.py:42
 msgctxt "Sale name"
 msgid "Name"
 msgstr "Tên"
 
-#: saleor/dashboard/discount/forms.py:40
+#: saleor/dashboard/discount/forms.py:43
 msgctxt "Discount type"
 msgid "Fixed or percentage"
 msgstr "Cố định hoặc phần trăm"
 
-#: saleor/dashboard/discount/forms.py:41
+#: saleor/dashboard/discount/forms.py:44
 msgctxt "Sale date restrictions"
 msgid "Start date"
 msgstr "Ngày bắt đầu"
 
-#: saleor/dashboard/discount/forms.py:42
+#: saleor/dashboard/discount/forms.py:45
 msgctxt "Sale date restrictions"
 msgid "End date"
 msgstr "Ngày kết thúc"
 
-#: saleor/dashboard/discount/forms.py:43
+#: saleor/dashboard/discount/forms.py:46
 msgctxt "Percentage or fixed amount value"
 msgid "Value"
 msgstr "Giá trị"
 
-#: saleor/dashboard/discount/forms.py:45
+#: saleor/dashboard/discount/forms.py:48
 msgctxt "Discounted categories"
 msgid "Discounted categories"
 msgstr "Thư mục giảm giá"
 
-#: saleor/dashboard/discount/forms.py:48
+#: saleor/dashboard/discount/forms.py:51
 msgctxt "Discounted collections"
 msgid "Discounted collections"
 msgstr "Bộ sưu tập giảm giá"
 
-#: saleor/dashboard/discount/forms.py:64
+#: saleor/dashboard/discount/forms.py:70
 msgctxt "Sale (discount) error"
 msgid "Sale cannot exceed 100%"
 msgstr "Giả giá không được quá 100%"
 
-#: saleor/dashboard/discount/forms.py:73
+#: saleor/dashboard/discount/forms.py:79
 msgctxt "Sale (discount) error"
 msgid ""
 "A single sale must point to at least one product, collectionand/or category."
@@ -533,120 +534,105 @@ msgstr ""
 "Mỗi chương trình sale phải áp dụng cho ít nhất 1 sản phẩm hoặc 1 loại sản "
 "phẩm"
 
-#: saleor/dashboard/discount/forms.py:92
+#: saleor/dashboard/discount/forms.py:104
 msgctxt "Discount type"
 msgid "Discount type"
 msgstr "Loại giảm giá"
 
-#: saleor/dashboard/discount/forms.py:94
+#: saleor/dashboard/discount/forms.py:106
 msgctxt "Coupon code"
 msgid "Code"
 msgstr "Mã"
 
-#: saleor/dashboard/discount/forms.py:95
+#: saleor/dashboard/discount/forms.py:107
 msgctxt "Usage limit"
 msgid "Usage limit"
 msgstr "Giới hạn sử dụng"
 
-#: saleor/dashboard/discount/forms.py:97
+#: saleor/dashboard/discount/forms.py:109
 msgctxt "Voucher: discount with"
 msgid "Minimal quantity of products"
 msgstr ""
 
-#: saleor/dashboard/discount/forms.py:99
+#: saleor/dashboard/discount/forms.py:111
 msgctxt "Voucher date restrictions"
 msgid "Start date"
 msgstr "Ngày bắt đầu"
 
-#: saleor/dashboard/discount/forms.py:100
+#: saleor/dashboard/discount/forms.py:112
 msgctxt "Voucher date restrictions"
 msgid "End date"
 msgstr "Ngày kết thúc"
 
-#: saleor/dashboard/discount/forms.py:102
+#: saleor/dashboard/discount/forms.py:114
 msgctxt "Discount type of the voucher"
 msgid "Discount type"
 msgstr "Loại giảm giá"
 
-#: saleor/dashboard/discount/forms.py:105
+#: saleor/dashboard/discount/forms.py:117
 msgctxt "Discount value of the voucher"
 msgid "Discount value"
 msgstr "Giá trị giảm"
 
-#: saleor/dashboard/discount/forms.py:125
+#: saleor/dashboard/discount/forms.py:140
 msgctxt "Text above the dropdown of countries"
 msgid "Limit countries that voucher should apply to"
 msgstr "Các nước áp dụng phiếu giảm giá"
 
-#: saleor/dashboard/discount/forms.py:155
+#: saleor/dashboard/discount/forms.py:167
 msgctxt "Field label, apply discount value only once per order"
 msgid "Only apply once per order"
 msgstr "Chỉ được áp dụng 1 mã cho mỗi lần đặt hàng"
 
-#: saleor/dashboard/discount/forms.py:159
+#: saleor/dashboard/discount/forms.py:171
 msgctxt "Help text of checkbox for applying discount only once per order"
 msgid ""
 "If unchecked, discount value will be taken off each suitable item in an "
 "order."
 msgstr "Nếu bỏ chọn, gía trị giả giá chọn sản phẩm phù hợp"
 
-#: saleor/dashboard/discount/forms.py:171
+#: saleor/dashboard/discount/forms.py:183
 msgctxt "Products that can be discounted with the voucher"
 msgid "Products"
 msgstr "Sản phẩm"
 
-#: saleor/dashboard/discount/forms.py:178
+#: saleor/dashboard/discount/forms.py:190
 msgctxt "Categories that can be discounted with the voucher"
 msgid "Categories"
 msgstr "Danh Mục"
 
-#: saleor/dashboard/discount/forms.py:194
+#: saleor/dashboard/discount/forms.py:205
 msgctxt "Collections that can be discounted with the voucher"
 msgid "Collections"
 msgstr "Bộ sưu tập"
 
-#: saleor/dashboard/discount/forms.py:211
-msgctxt "Product"
-msgid "Products"
-msgstr "Sản phẩm"
-
-#: saleor/dashboard/discount/forms.py:238
-msgctxt "Collections"
-msgid "Collections"
-msgstr "Bộ sưu tập"
-
-#: saleor/dashboard/discount/forms.py:249
-msgctxt "Categories"
-msgid "Categories"
-msgstr "Thư mục"
-
-#: saleor/dashboard/discount/views.py:66
+#: saleor/dashboard/discount/views.py:57
 msgctxt "Sale (discount) message"
 msgid "Added sale"
 msgstr "Đơn hàng đã được thêm"
 
-#: saleor/dashboard/discount/views.py:80
+#: saleor/dashboard/discount/views.py:71
 msgctxt "Sale (discount) message"
 msgid "Updated sale"
 msgstr "Đơn hàng đã cập nhật"
 
-#: saleor/dashboard/discount/views.py:93
+#: saleor/dashboard/discount/views.py:84
 #, python-format
 msgctxt "Sale (discount) message"
 msgid "Removed sale %s"
 msgstr "Đơn hàng đã xoá %s"
 
-#: saleor/dashboard/discount/views.py:138
+#: saleor/dashboard/discount/views.py:129
 msgctxt "Voucher message"
 msgid "Added voucher"
 msgstr "Phiếu giảm giá đã được thêm"
 
-#: saleor/dashboard/discount/views.py:166
+#: saleor/dashboard/discount/views.py:157
 msgctxt "Voucher message"
 msgid "Updated voucher"
 msgstr "Phiếu giảm giá đã cập nhật"
 
-#: saleor/dashboard/discount/views.py:184
+#: saleor/dashboard/discount/views.py:175
 #, python-format
 msgctxt "Voucher message"
 msgid "Removed voucher %s"
@@ -736,71 +722,71 @@ msgctxt "Menu item form error"
 msgid "A single menu item must point to an internal link or URL."
 msgstr "Menu item phải dẫn đến một url"
 
-#: saleor/dashboard/menu/utils.py:110
+#: saleor/dashboard/menu/utils.py:11
 #, python-format
 msgctxt "Menu item page hidden status"
 msgid ""
 "%(menu_item_name)s is hidden (will become visible on %(available_on_date)s)"
 msgstr "%(menu_item_name)s đã ẩn( sẽ hiển thị vào %(available_on_date)s )"
 
-#: saleor/dashboard/menu/utils.py:123
+#: saleor/dashboard/menu/utils.py:24
 #, python-format
 msgctxt "Menu item published status"
 msgid "%(menu_item_name)s (Not published)"
 msgstr "%(menu_item_name)s(Không công bố )"
 
-#: saleor/dashboard/menu/views.py:34
+#: saleor/dashboard/menu/views.py:35
 msgctxt "Dashboard message"
 msgid "Updated storefront menus"
 msgstr "Cập nhật menu cửa hàng"
 
-#: saleor/dashboard/menu/views.py:53
+#: saleor/dashboard/menu/views.py:54
 #, python-format
 msgctxt "Dashboard message"
 msgid "Added menu %s"
 msgstr "Đã thêm menu %s"
 
-#: saleor/dashboard/menu/views.py:67
+#: saleor/dashboard/menu/views.py:68
 #, python-format
 msgctxt "Dashboard message"
 msgid "Updated menu %s"
 msgstr "Cập nhật menu %s"
 
-#: saleor/dashboard/menu/views.py:101
+#: saleor/dashboard/menu/views.py:102
 #, python-format
 msgctxt "Dashboard message"
 msgid "Removed menu %s"
 msgstr "Đã xoá menu %s"
 
-#: saleor/dashboard/menu/views.py:122
+#: saleor/dashboard/menu/views.py:123
 #, python-format
 msgctxt "Dashboard message"
 msgid "Added menu item %s"
 msgstr "Đã thêm phần tử menu %s"
 
-#: saleor/dashboard/menu/views.py:144
+#: saleor/dashboard/menu/views.py:145
 #, python-format
 msgctxt "Dashboard message"
 msgid "Saved menu item %s"
 msgstr "Lưu menu item %s"
 
-#: saleor/dashboard/menu/views.py:159
+#: saleor/dashboard/menu/views.py:160
 #, python-format
 msgctxt "Dashboard message"
 msgid "Removed menu item %s"
 msgstr "Đã xoá menu item %s"
 
-#: saleor/dashboard/menu/views.py:245
+#: saleor/dashboard/menu/views.py:246
 msgctxt "Link object type group description"
 msgid "Collection"
 msgstr "Bộ sưu tập"
 
-#: saleor/dashboard/menu/views.py:251
+#: saleor/dashboard/menu/views.py:252
 msgctxt "Link object type group description"
 msgid "Category"
 msgstr "Thư mục"
 
-#: saleor/dashboard/menu/views.py:257
+#: saleor/dashboard/menu/views.py:258
 msgctxt "Link object type group description"
 msgid "Page"
 msgstr "Trang"
@@ -855,55 +841,55 @@ msgctxt "Order list filter label"
 msgid "Total"
 msgstr "Tổng"
 
-#: saleor/dashboard/order/filters.py:65
+#: saleor/dashboard/order/filters.py:67
 msgctxt "Order list filter label"
 msgid "Sort by"
 msgstr "Sắp xếp theo"
 
-#: saleor/dashboard/order/filters.py:99
+#: saleor/dashboard/order/filters.py:101
 #, python-format
 msgctxt "Number of matching records in the dashboard orders list"
 msgid "Found %(counter)d matching order"
 msgid_plural "Found %(counter)d matching orders"
 msgstr[0] "Tìm thấy %(counter)d đặt hàng phù hợp"
 
-#: saleor/dashboard/order/forms.py:49
+#: saleor/dashboard/order/forms.py:48
 msgctxt "Send email to customer about order created by staff users"
 msgid "Send email with order confirmation to the customer"
 msgstr "Gửi email với xác nhận đặt hàng cho khách hàng"
 
-#: saleor/dashboard/order/forms.py:72
+#: saleor/dashboard/order/forms.py:71
 msgctxt "Create draft order form error"
 msgid "Could not create order without any products"
 msgstr "Không thể order, giỏ hàng trống"
 
-#: saleor/dashboard/order/forms.py:89
+#: saleor/dashboard/order/forms.py:88
 msgctxt "Create draft order form error"
 msgid "Shipping method is not valid for chosen shipping address"
 msgstr "Phương thức giao hàng không hỗ trợ địa chỉ này"
 
-#: saleor/dashboard/order/forms.py:120
+#: saleor/dashboard/order/forms.py:119
 msgctxt "Update an order with user default addresses"
 msgid "Set billing and shipping address in order to customer defaults"
 msgstr "Đặt mặc định xuất hoá đơn và giao hàng là địa chỉ mặc định"
 
-#: saleor/dashboard/order/forms.py:130
+#: saleor/dashboard/order/forms.py:129
 msgctxt "Order form: editing customer details - selecting a customer"
 msgid "Customer"
 msgstr "Khách hàng"
 
-#: saleor/dashboard/order/forms.py:137
+#: saleor/dashboard/order/forms.py:136
 msgctxt "Order customer email"
 msgid "Email"
 msgstr "Thư điện tử"
 
-#: saleor/dashboard/order/forms.py:153
+#: saleor/dashboard/order/forms.py:152
 msgctxt "Edit customer details in order form error"
 msgid ""
 "An order can be related either with an email or an existing user account"
 msgstr "Đặt hàng có thể qua email hoặc tài khoản"
 
-#: saleor/dashboard/order/forms.py:184
+#: saleor/dashboard/order/forms.py:183
 msgctxt "Shipping method form field label"
 msgid "Shipping method"
 msgstr "Phương thức vận chuyển"
@@ -1053,49 +1039,49 @@ msgid "%(quantity)d item remaining to fulfill."
 msgid_plural "%(quantity)d items remaining to fulfill."
 msgstr[0] "%(quantity)d  items remaining to fulfill."
 
-#: saleor/dashboard/order/utils.py:136
+#: saleor/dashboard/order/utils.py:82
 msgctxt "Voucher not applicable"
 msgid "This offer is only valid for selected items."
 msgstr "Phiếu mua hàng này chỉ hợp lệ cho các mục đã chọn."
 
-#: saleor/dashboard/order/views.py:82
+#: saleor/dashboard/order/views.py:87
 msgctxt "Dashboard message related to an order"
 msgid "Draft order created"
 msgstr "Đặt hàng nháp"
 
-#: saleor/dashboard/order/views.py:104
+#: saleor/dashboard/order/views.py:109
 msgctxt "Dashboard message related to an order"
 msgid "Order created from draft order"
 msgstr "Đặt hàng tạo từ đặt hàng nháp"
 
-#: saleor/dashboard/order/views.py:126
+#: saleor/dashboard/order/views.py:130
 msgctxt "Dashboard message"
 msgid "Draft order successfully removed"
 msgstr "Xoá thành công đặt hàng nháp"
 
-#: saleor/dashboard/order/views.py:169
+#: saleor/dashboard/order/views.py:173
 msgctxt "Dashboard message related to an order"
 msgid "Added note"
 msgstr "Thêm ghi chú"
 
-#: saleor/dashboard/order/views.py:191
+#: saleor/dashboard/order/views.py:195
 #, python-format
 msgctxt "Dashboard message related to a payment"
 msgid "Captured %(amount)s"
 msgstr "Đã giữ %(amount)s"
 
-#: saleor/dashboard/order/views.py:218
+#: saleor/dashboard/order/views.py:222
 #, python-format
 msgctxt "Dashboard message related to a payment"
 msgid "Refunded %(amount)s"
 msgstr "Đã hoàn trả %(amount)s"
 
-#: saleor/dashboard/order/views.py:245
+#: saleor/dashboard/order/views.py:247
 msgctxt "Dashboard message"
 msgid "Voided payment"
 msgstr ""
 
-#: saleor/dashboard/order/views.py:268
+#: saleor/dashboard/order/views.py:270
 #, python-format
 msgctxt "Dashboard message related to an order line"
 msgid ""
@@ -1104,87 +1090,87 @@ msgid ""
 msgstr ""
 "Sửa đổi số lượng %(variant)s từ %(old_quantity)s thành %(new_quantity)s"
 
-#: saleor/dashboard/order/views.py:296
+#: saleor/dashboard/order/views.py:298
 #, python-format
 msgctxt "Dashboard message related to an order line"
 msgid "Canceled item %s"
 msgstr "Huỷ bỏ sản phẩm %s"
 
-#: saleor/dashboard/order/views.py:332
+#: saleor/dashboard/order/views.py:334
 #, python-format
 msgctxt "Dashboard message related to an order"
 msgid "Added %(quantity)d x %(variant)s"
 msgstr "Thêm %(quantity)d x %(variant)s"
 
-#: saleor/dashboard/order/views.py:341
+#: saleor/dashboard/order/views.py:343
 #, python-format
 msgctxt "Dashboard message related to an order"
 msgid "Insufficient stock: could not add %(quantity)d x %(variant)s"
 msgstr "Không thể thêm %(quantity)d x %(variant)s , không đủ hàng "
 
-#: saleor/dashboard/order/views.py:361
+#: saleor/dashboard/order/views.py:363
 msgctxt "Dashboard message"
 msgid "Updated shipping address"
 msgstr "Cập nhật địa chỉ giao hàng"
 
-#: saleor/dashboard/order/views.py:365
+#: saleor/dashboard/order/views.py:367
 msgctxt "Dashboard message"
 msgid "Updated billing address"
 msgstr "Cập nhật địa chỉ hoá đơn"
 
-#: saleor/dashboard/order/views.py:396
+#: saleor/dashboard/order/views.py:399
 #, python-format
 msgctxt "Dashboard message"
 msgid "%s email assigned to an order"
 msgstr "%s email đã đặt hàng"
 
-#: saleor/dashboard/order/views.py:401
+#: saleor/dashboard/order/views.py:404
 #, python-format
 msgctxt "Dashboard message"
 msgid "%s user assigned to an order"
 msgstr "%s người dùng đặt hàng "
 
-#: saleor/dashboard/order/views.py:405
+#: saleor/dashboard/order/views.py:408
 msgctxt "Dashboard message"
 msgid "Guest user assigned to an order"
 msgstr "Guest đã đặt hàng "
 
-#: saleor/dashboard/order/views.py:424
+#: saleor/dashboard/order/views.py:427
 msgctxt "Dashboard message"
 msgid "Customer removed from an order"
 msgstr "Khách hàng đã xoá đặt hàng "
 
-#: saleor/dashboard/order/views.py:438
+#: saleor/dashboard/order/views.py:441
 msgctxt "Dashboard message"
 msgid "Shipping updated"
 msgstr "Đã cập nhật tình trạng giao hàng"
 
-#: saleor/dashboard/order/views.py:456
+#: saleor/dashboard/order/views.py:459
 msgctxt "Dashboard message"
 msgid "Shipping removed"
 msgstr "Đã xoá giao hàng "
 
-#: saleor/dashboard/order/views.py:470
+#: saleor/dashboard/order/views.py:473
 msgctxt "Dashboard message"
 msgid "Discount updated"
 msgstr "Đã cập nhật giảm giá"
 
-#: saleor/dashboard/order/views.py:489
+#: saleor/dashboard/order/views.py:492
 msgctxt "Dashboard message"
 msgid "Voucher updated"
 msgstr "Đã cập nhật mã giảm giá"
 
-#: saleor/dashboard/order/views.py:510
+#: saleor/dashboard/order/views.py:513
 msgctxt "Dashboard message"
 msgid "Order canceled"
 msgstr "Đơn hàng đã huỷ"
 
-#: saleor/dashboard/order/views.py:531
+#: saleor/dashboard/order/views.py:534
 msgctxt "Dashboard message"
 msgid "Removed voucher from order"
 msgstr "Đã xoá mã giảm gía từ đơn hàng "
 
-#: saleor/dashboard/order/views.py:563
+#: saleor/dashboard/order/views.py:566
 msgctxt "Dashboard message"
 msgid "Order manually marked as paid"
 msgstr "Đơn hàng được đánh dấu thanh toán thủ công"
@@ -1196,18 +1182,18 @@ msgid "Fulfilled %(quantity_fulfilled)d item"
 msgid_plural "Fulfilled %(quantity_fulfilled)d items"
 msgstr[0] "Fulfilled%(quantity_fulfilled)ditems"
 
-#: saleor/dashboard/order/views.py:655
+#: saleor/dashboard/order/views.py:652
 msgctxt "Dashboard message related to an order"
 msgid "No items fulfilled"
 msgstr "No items fulfilled"
 
-#: saleor/dashboard/order/views.py:681
+#: saleor/dashboard/order/views.py:678
 #, python-format
 msgctxt "Dashboard message"
 msgid "Fulfillment #%(fulfillment)s canceled"
 msgstr "Fulfillment #%(fulfillment)s canceled"
 
-#: saleor/dashboard/order/views.py:720
+#: saleor/dashboard/order/views.py:714
 #, python-format
 msgctxt "Dashboard message"
 msgid "Fulfillment #%(fulfillment)s tracking number updated"
@@ -1229,9 +1215,12 @@ msgid "Title"
 msgstr "Tiêu đề"
 
 #: saleor/dashboard/page/filters.py:19
-msgctxt "Page list url filter label"
-msgid "URL"
-msgstr "Địa chỉ"
+#, fuzzy
+#| msgctxt "Page form: slug field"
+#| msgid "Slug"
+msgctxt "Page list slug filter label"
+msgid "Slug"
+msgstr "Slug link"
 
 #: saleor/dashboard/page/filters.py:23
 msgctxt "Page list sorting filter label"
@@ -1285,6 +1274,16 @@ msgstr "Trang đã lưu"
 msgctxt "Dashboard message"
 msgid "Removed page %s"
 msgstr "Xoá trang  %s"
+
+#: saleor/dashboard/payment/views.py:29
+msgctxt "Dashboard message"
+msgid "Selected plugin does not exist."
+msgstr ""
+
+#: saleor/dashboard/payment/views.py:36
+msgctxt "Dashboard message"
+msgid "Payment config succesfully updated"
+msgstr ""
 
 #: saleor/dashboard/product/__init__.py:11
 msgctxt "product bulk action"
@@ -1397,84 +1396,84 @@ msgid "Found %(counter)d matching product type"
 msgid_plural "Found %(counter)d matching product types"
 msgstr[0] "Tìm thấy%(counter)dloại sản phẩm"
 
-#: saleor/dashboard/product/forms.py:46
+#: saleor/dashboard/product/forms.py:68
 msgctxt "Help text in rich-text editor field"
 msgid "Select text to enable text-formatting tools."
 msgstr "Bôi đen để hiển thị công cụ chỉnh sửa văn bản"
 
-#: saleor/dashboard/product/forms.py:63
+#: saleor/dashboard/product/forms.py:85
 msgctxt "Product type form label"
 msgid "Product type"
 msgstr "Loại sản phẩm"
 
-#: saleor/dashboard/product/forms.py:71
+#: saleor/dashboard/product/forms.py:93
 msgctxt "Product type tax rate type"
 msgid "Tax rate"
 msgstr "Thuế"
 
-#: saleor/dashboard/product/forms.py:74 saleor/dashboard/product/forms.py:253
+#: saleor/dashboard/product/forms.py:96 saleor/dashboard/product/forms.py:279
 msgctxt "ProductType weight"
 msgid "Weight"
 msgstr "Cân nặng"
 
-#: saleor/dashboard/product/forms.py:77
+#: saleor/dashboard/product/forms.py:99
 msgctxt "ProductVariant weight help text"
 msgid ""
-"Default weight that will be used for calculating shipping price for products"
-" of that type."
+"Default weight that will be used for calculating shipping price for products "
+"of that type."
 msgstr "Cân nặng dùng để tính toán tiền ship của sản phẩm này"
 
-#: saleor/dashboard/product/forms.py:85
+#: saleor/dashboard/product/forms.py:107
 msgctxt "Product type attributes"
 msgid "Attributes common to all variants."
 msgstr "Thuộc tính chung cho tất cả các biến thể"
 
-#: saleor/dashboard/product/forms.py:92
+#: saleor/dashboard/product/forms.py:114
 msgctxt "Product type attributes"
 msgid "Attributes specific to each variant."
 msgstr "Thuộc tính cụ thể cho từng biến thể."
 
-#: saleor/dashboard/product/forms.py:101
+#: saleor/dashboard/product/forms.py:123
 msgctxt "Enable variants"
 msgid "Enable variants"
 msgstr "Enable variants"
 
-#: saleor/dashboard/product/forms.py:103
+#: saleor/dashboard/product/forms.py:125
 msgctxt "Shipping toggle"
 msgid "Require shipping"
 msgstr "Yêu cầu giao hàng"
 
-#: saleor/dashboard/product/forms.py:144
+#: saleor/dashboard/product/forms.py:160
 msgctxt "Product type form error"
 msgid "Product variants are disabled."
 msgstr "Loại sản phẩm đã bị vô hiệu"
 
-#: saleor/dashboard/product/forms.py:150
+#: saleor/dashboard/product/forms.py:166
 msgctxt "Product type form error"
 msgid "A single attribute can't belong to both a product and its variant."
 msgstr "Một thuộc tính sản phẩm không thể vừa của sản phẩm vừa của biến thể"
 
-#: saleor/dashboard/product/forms.py:171
+#: saleor/dashboard/product/forms.py:187
 msgctxt "Product type form error"
 msgid "Some products of this type have more than one variant."
 msgstr "Một số sản phẩm trong loại này có thể có nhiều biến thể"
 
-#: saleor/dashboard/product/forms.py:237
+#: saleor/dashboard/product/forms.py:257
 msgctxt "Product tax rate type"
 msgid "Tax rate"
 msgstr "Thuế"
 
-#: saleor/dashboard/product/forms.py:241
+#: saleor/dashboard/product/forms.py:267
 msgctxt "Category"
 msgid "Category"
 msgstr "Thư mục"
 
-#: saleor/dashboard/product/forms.py:246
+#: saleor/dashboard/product/forms.py:272
 msgctxt "Add to collection select"
 msgid "Collections"
 msgstr "Bộ sưu tập"
 
-#: saleor/dashboard/product/forms.py:256
+#: saleor/dashboard/product/forms.py:282
 msgctxt "Product weight field help text"
 msgid ""
 "Weight will be used to calculate shipping price, if empty, equal to default "
@@ -1483,43 +1482,37 @@ msgstr ""
 "Weight will be used to calculate shipping price, if empty, equal to default "
 "value used on the ProductType."
 
-#: saleor/dashboard/product/forms.py:268
-#: saleor/dashboard/shipping/forms.py:138
-msgctxt "Currency amount"
-msgid "Price"
-msgstr "Giá"
-
-#: saleor/dashboard/product/forms.py:270
+#: saleor/dashboard/product/forms.py:302
 msgctxt "Availability date"
 msgid "Publish product on"
 msgstr "Công bố sản phẩm vào"
 
-#: saleor/dashboard/product/forms.py:272
+#: saleor/dashboard/product/forms.py:304
 msgctxt "Product published toggle"
 msgid "Published"
 msgstr "Xuất bản"
 
-#: saleor/dashboard/product/forms.py:274
+#: saleor/dashboard/product/forms.py:306
 msgctxt "Charge taxes on product"
 msgid "Charge taxes on this product"
 msgstr "Áp dụng phí vào sản phẩm này"
 
-#: saleor/dashboard/product/forms.py:306
+#: saleor/dashboard/product/forms.py:342
 msgctxt "Currency gross amount"
 msgid "Gross price"
 msgstr "Tổng giá"
 
-#: saleor/dashboard/product/forms.py:310
+#: saleor/dashboard/product/forms.py:346
 msgctxt "Currency net amount"
 msgid "Net price"
 msgstr "Giá ròng"
 
-#: saleor/dashboard/product/forms.py:342
+#: saleor/dashboard/product/forms.py:389
 msgctxt "ProductVariant weight"
 msgid "Weight"
 msgstr "Cân nặng"
 
-#: saleor/dashboard/product/forms.py:345
+#: saleor/dashboard/product/forms.py:392
 msgctxt "ProductVariant weight help text"
 msgid ""
 "Weight will be used to calculate shipping price. If empty, weight from "
@@ -1528,171 +1521,161 @@ msgstr ""
 "Weight will be used to calculate shipping price, if empty, equal to default "
 "value used on the ProductType"
 
-#: saleor/dashboard/product/forms.py:361
+#: saleor/dashboard/product/forms.py:410
 msgctxt "SKU"
 msgid "SKU"
 msgstr "SKU"
 
-#: saleor/dashboard/product/forms.py:362
-msgctxt "Override price"
-msgid "Selling price override"
-msgstr "Ghi đè giá"
-
-#: saleor/dashboard/product/forms.py:363
+#: saleor/dashboard/product/forms.py:411
 msgctxt "Integer number"
 msgid "Number in stock"
 msgstr "Số lượng còn lại"
 
-#: saleor/dashboard/product/forms.py:364
-msgctxt "Currency amount"
-msgid "Cost price"
-msgstr "Chi phí"
-
-#: saleor/dashboard/product/forms.py:366
+#: saleor/dashboard/product/forms.py:413
 msgctxt "Track inventory field"
 msgid "Track inventory"
 msgstr "Theo dõi kho"
 
-#: saleor/dashboard/product/forms.py:372
+#: saleor/dashboard/product/forms.py:419
 msgctxt "product variant handle stock field help text"
 msgid "Automatically track this product's inventory"
 msgstr "Tự động theo dõi sản phẩm trong kho"
 
-#: saleor/dashboard/product/forms.py:389
+#: saleor/dashboard/product/forms.py:438
 msgctxt "Override price"
 msgid "Selling gross price override"
 msgstr "Selling gross price override"
 
-#: saleor/dashboard/product/forms.py:392
+#: saleor/dashboard/product/forms.py:441
 msgctxt "Currency amount"
 msgid "Cost gross price"
 msgstr "Cost gross price"
 
-#: saleor/dashboard/product/forms.py:396
+#: saleor/dashboard/product/forms.py:445
 msgctxt "Override price"
 msgid "Selling net price override"
 msgstr "Selling net price override"
 
-#: saleor/dashboard/product/forms.py:399
+#: saleor/dashboard/product/forms.py:448
 msgctxt "Currency amount"
 msgid "Cost net price"
 msgstr "Cost net price"
 
-#: saleor/dashboard/product/forms.py:457 saleor/dashboard/product/forms.py:561
+#: saleor/dashboard/product/forms.py:513 saleor/dashboard/product/forms.py:617
 msgctxt "Product image"
 msgid "Image"
 msgstr "Hình ảnh"
 
-#: saleor/dashboard/product/forms.py:498
+#: saleor/dashboard/product/forms.py:554
 msgctxt "Product display name"
 msgid "Display name"
 msgstr "Tên hiển thị"
 
-#: saleor/dashboard/product/forms.py:499
+#: saleor/dashboard/product/forms.py:555
 msgctxt "Product internal name"
 msgid "Internal name"
 msgstr "Tên nội bộ"
 
-#: saleor/dashboard/product/views.py:142
+#: saleor/dashboard/product/views.py:144
 #, python-format
 msgctxt "Dashboard message"
 msgid "Added product %s"
 msgstr "Thêm sản phẩm%s"
 
-#: saleor/dashboard/product/views.py:174
+#: saleor/dashboard/product/views.py:181
 #, python-format
 msgctxt "Dashboard message"
 msgid "Updated product %s"
 msgstr "Cập nhật sản phẩm%s"
 
-#: saleor/dashboard/product/views.py:187
+#: saleor/dashboard/product/views.py:194
 #, python-format
 msgctxt "Dashboard message"
 msgid "Removed product %s"
 msgstr "Sản phẩm đã xoá %s"
 
-#: saleor/dashboard/product/views.py:205
+#: saleor/dashboard/product/views.py:212
 #, python-format
 msgctxt "Dashboard message"
 msgid "%(count)d product has been updated"
 msgid_plural "%(count)d products have been updated"
 msgstr[0] "%(count)dsản phẩm được cập nhật"
 
-#: saleor/dashboard/product/views.py:262
+#: saleor/dashboard/product/views.py:269
 #, python-format
 msgctxt "Dashboard message"
 msgid "Added product type %s"
 msgstr "Loại sản phẩm đã thêm %s"
 
-#: saleor/dashboard/product/views.py:278
+#: saleor/dashboard/product/views.py:285
 #, python-format
 msgctxt "Dashboard message"
 msgid "Updated product type %s"
 msgstr "Loại sản phẩm đã cập nhật %s"
 
-#: saleor/dashboard/product/views.py:293
+#: saleor/dashboard/product/views.py:300
 #, python-format
 msgctxt "Dashboard message"
 msgid "Removed product type %s"
 msgstr "Loại sản phẩm đã xoá %s"
 
-#: saleor/dashboard/product/views.py:341 saleor/dashboard/product/views.py:358
+#: saleor/dashboard/product/views.py:348 saleor/dashboard/product/views.py:372
 #, python-format
 msgctxt "Dashboard message"
 msgid "Saved variant %s"
 msgstr "Lưu biến thể%s"
 
-#: saleor/dashboard/product/views.py:374
+#: saleor/dashboard/product/views.py:389
 #, python-format
 msgctxt "Dashboard message"
 msgid "Removed variant %s"
 msgstr "Xoá biến thể%s"
 
-#: saleor/dashboard/product/views.py:453
+#: saleor/dashboard/product/views.py:468
 #, python-format
 msgctxt "Dashboard message"
 msgid "Added image %s"
 msgstr "Ảnh đã được thêm %s"
 
-#: saleor/dashboard/product/views.py:472
+#: saleor/dashboard/product/views.py:487
 #, python-format
 msgctxt "Dashboard message"
 msgid "Updated image %s"
 msgstr "Ảnh đã được cập nhật %s"
 
-#: saleor/dashboard/product/views.py:488
+#: saleor/dashboard/product/views.py:503
 #, python-format
 msgctxt "Dashboard message"
 msgid "Removed image %s"
 msgstr "Ảnh đã xoá %s"
 
-#: saleor/dashboard/product/views.py:580
+#: saleor/dashboard/product/views.py:598
 msgctxt "Dashboard message"
 msgid "Added attribute"
 msgstr "Thuộc tính đã thêm"
 
-#: saleor/dashboard/product/views.py:594
+#: saleor/dashboard/product/views.py:612
 msgctxt "Dashboard message"
 msgid "Updated attribute"
 msgstr "Thuộc tính đã cập nhật"
 
-#: saleor/dashboard/product/views.py:607
+#: saleor/dashboard/product/views.py:625
 #, python-format
 msgctxt "Dashboard message"
 msgid "Removed attribute %s"
 msgstr "Thuộc tính đã xoá %s"
 
-#: saleor/dashboard/product/views.py:627
+#: saleor/dashboard/product/views.py:645
 msgctxt "Dashboard message"
 msgid "Added attribute's value"
 msgstr "Thêm giá trị thuộc tính"
 
-#: saleor/dashboard/product/views.py:644
+#: saleor/dashboard/product/views.py:662
 msgctxt "Dashboard message"
 msgid "Updated attribute's value"
 msgstr "Cập nhật giá trị thuộc tính"
 
-#: saleor/dashboard/product/views.py:659
+#: saleor/dashboard/product/views.py:677
 #, python-format
 msgctxt "Dashboard message"
 msgid "Removed attribute's value %s"
@@ -1713,44 +1696,44 @@ msgctxt "A SEO friendly description"
 msgid "SEO Friendly Description"
 msgstr "Mô tả thân thiện SEO"
 
-#: saleor/dashboard/shipping/filters.py:8
+#: saleor/dashboard/shipping/filters.py:9
 msgctxt "Group list sorting option"
 msgid "name"
 msgstr "tên"
 
-#: saleor/dashboard/shipping/filters.py:13
+#: saleor/dashboard/shipping/filters.py:14
 msgctxt "Shipping zones list filter label"
 msgid "Shipping zone name"
 msgstr "Khu vực giao hàng"
 
-#: saleor/dashboard/shipping/filters.py:17
+#: saleor/dashboard/shipping/filters.py:18
 msgctxt "Shipping zones list filter label"
 msgid "Price range"
 msgstr "Khoảng giá"
 
-#: saleor/dashboard/shipping/filters.py:21
+#: saleor/dashboard/shipping/filters.py:23
 msgctxt "Shipping zones filter label"
 msgid "Country"
 msgstr "Quốc gia"
 
-#: saleor/dashboard/shipping/filters.py:27
+#: saleor/dashboard/shipping/filters.py:29
 msgctxt "Product list sorting filter label"
 msgid "Sort by"
 msgstr "Sắp xếp theo"
 
-#: saleor/dashboard/shipping/filters.py:40
+#: saleor/dashboard/shipping/filters.py:42
 #, python-format
 msgctxt "Number of matching records in the dashboard shipping zones list"
 msgid "Found %(counter)d matching shipping zone"
 msgid_plural "Found %(counter)d matching shipping zones"
 msgstr[0] "Tìm thấy %(counter)d vùng giao hàng phù hợp"
 
-#: saleor/dashboard/shipping/forms.py:35
+#: saleor/dashboard/shipping/forms.py:39
 msgctxt "Label of the default weight unit picker"
 msgid "Default weight unit"
 msgstr "Đơn vị trọng lượng mặc định"
 
-#: saleor/dashboard/shipping/forms.py:41
+#: saleor/dashboard/shipping/forms.py:45
 msgctxt "Default weight unit help text"
 msgid ""
 "Default unit for weights entered from the dashboard.All weights will be "
@@ -1759,32 +1742,32 @@ msgstr ""
 "Giá trị cân nặng mặc định được cập nhật, tất cả cân nặng sẽ được tính toán "
 "lại theo giá trị mới"
 
-#: saleor/dashboard/shipping/forms.py:52
+#: saleor/dashboard/shipping/forms.py:56
 msgctxt "Shippment Zone field name"
 msgid "Shipping zone name"
 msgstr "Khu vực giao hàng"
 
-#: saleor/dashboard/shipping/forms.py:53
+#: saleor/dashboard/shipping/forms.py:57
 msgctxt "Shipping Zone field name"
 msgid "Rest of World"
 msgstr "Các nước còn lại trên thế giới"
 
-#: saleor/dashboard/shipping/forms.py:54
+#: saleor/dashboard/shipping/forms.py:58
 msgctxt "List of countries to pick from"
 msgid "Countries"
 msgstr "Các nước"
 
-#: saleor/dashboard/shipping/forms.py:59
+#: saleor/dashboard/shipping/forms.py:63
 msgctxt "Countries field help text"
 msgid "Each country might be included in only one shipping zone."
 msgstr "Mỗi nước có thể bao gồm 1 vùng giao hàng"
 
-#: saleor/dashboard/shipping/forms.py:63
+#: saleor/dashboard/shipping/forms.py:67
 msgctxt "Help text for ShippingZone name"
 msgid "Name is for internal use only, it won't be displayed to your customers"
 msgstr "Tên chỉ sử dụng nội bộ, không hiển thị cho khách hàng"
 
-#: saleor/dashboard/shipping/forms.py:68
+#: saleor/dashboard/shipping/forms.py:72
 msgctxt "Help text for ShippingZone name"
 msgid ""
 "If selected, this zone will include any countries that are not already "
@@ -1793,65 +1776,74 @@ msgstr ""
 "If selected, this zone will include any countries that are not already "
 "listed in your other shipping zones."
 
-#: saleor/dashboard/shipping/forms.py:98
+#: saleor/dashboard/shipping/forms.py:102
 msgctxt "ShippingZone  with \"default\" option selected already exists"
 msgid "Default ShippingZone already exists."
 msgstr "Vùng đặt hàng mặc định đã tồn tại"
 
-#: saleor/dashboard/shipping/forms.py:113
+#: saleor/dashboard/shipping/forms.py:117
 #, python-format
 msgctxt "Shipping zone containing duplicated countries form error"
 msgid ""
 "Countries already exists in another shipping zone: %(list_of_countries)s"
 msgstr "Đất nước đã tồn tại ở trong vùng giao hàng  %(list_of_countries)s"
 
-#: saleor/dashboard/shipping/forms.py:125
+#: saleor/dashboard/shipping/forms.py:129
 msgctxt "ShippingZone field error"
 msgid "This field is required."
 msgstr "Thông tin này là bắt buộc"
 
-#: saleor/dashboard/shipping/forms.py:137
+#: saleor/dashboard/shipping/forms.py:139
+#: saleor/dashboard/shipping/forms.py:148
+#: saleor/dashboard/shipping/forms.py:161
+msgctxt "Currency amount"
+msgid "Price"
+msgstr "Giá"
+
+#: saleor/dashboard/shipping/forms.py:147
 msgctxt "Shipping Method name"
 msgid "Name"
 msgstr "Tên"
 
-#: saleor/dashboard/shipping/forms.py:143
+#: saleor/dashboard/shipping/forms.py:153
 msgctxt "Shipping method name help text"
 msgid "Customers will see this at the checkout."
 msgstr "Khách hàng sẽ thấy nó ở giai đoạn thanh toán"
 
-#: saleor/dashboard/shipping/forms.py:152
+#: saleor/dashboard/shipping/forms.py:167
+#: saleor/dashboard/shipping/forms.py:182
 msgctxt "Minimum order price to use this shipping method"
 msgid "Minimum order price"
 msgstr "Giá trị đặt hàng tối thiểu"
 
-#: saleor/dashboard/shipping/forms.py:155
+#: saleor/dashboard/shipping/forms.py:174
+#: saleor/dashboard/shipping/forms.py:185
 msgctxt "Maximum order price to use this order"
 msgid "Maximum order price"
 msgstr "Giá trị đặt hàng lớn nhất"
 
-#: saleor/dashboard/shipping/forms.py:164
+#: saleor/dashboard/shipping/forms.py:199
 msgctxt "Placeholder for maximum order price set to unlimited"
 msgid "No limit"
 msgstr "Không giới hạn"
 
-#: saleor/dashboard/shipping/forms.py:180
-#: saleor/dashboard/shipping/forms.py:223
+#: saleor/dashboard/shipping/forms.py:217
+#: saleor/dashboard/shipping/forms.py:263
 msgctxt "Price shipping method form error"
 msgid "Maximum order price should be larger than the minimum order price."
 msgstr "Giá trị đặt hàng tối đa phải lớn hơn giá trị đặt hàng tối thiểu"
 
-#: saleor/dashboard/shipping/forms.py:191
+#: saleor/dashboard/shipping/forms.py:228
 msgctxt "Minimum order weight to use this shipping method"
 msgid "Minimum order weight"
 msgstr "Trọng lượng giao hàng thấp nhất"
 
-#: saleor/dashboard/shipping/forms.py:197
+#: saleor/dashboard/shipping/forms.py:234
 msgctxt "Maximum order weight to use this shipping method"
 msgid "Maximum order weight"
 msgstr "Cân nặng tối đa"
 
-#: saleor/dashboard/shipping/forms.py:207
+#: saleor/dashboard/shipping/forms.py:247
 msgctxt "Placeholder for maximum order weight set to unlimited"
 msgid "No limit"
 msgstr "Không giới hạn"
@@ -1905,34 +1897,47 @@ msgctxt "Display name"
 msgid "Display name"
 msgstr "Tên hiển thị"
 
-#: saleor/dashboard/sites/forms.py:28
+#: saleor/dashboard/sites/forms.py:30
 msgctxt "Header text"
 msgid "Header text"
 msgstr "Nội dung header"
 
-#: saleor/dashboard/sites/forms.py:32
+#: saleor/dashboard/sites/forms.py:34
 msgctxt "Inventory tracking by default settings toggle label"
 msgid "Enable inventory tracking for newly created products"
 msgstr "Bật quản lý kho với sản phẩm mới tạo"
 
-#: saleor/dashboard/sites/forms.py:35
+#: saleor/dashboard/sites/forms.py:37
 msgctxt "Default weight unit"
 msgid "Default weight unit"
 msgstr "Đơn vị trọng lượng mặc định"
 
-#: saleor/dashboard/sites/forms.py:41
+#: saleor/dashboard/sites/forms.py:40
+#, fuzzy
+#| msgctxt "Category list filter label"
+#| msgid "Name"
+msgctxt "Site settings's default email sender info"
+msgid "Full Name"
+msgstr "Tên"
+
+#: saleor/dashboard/sites/forms.py:43
+msgctxt "Site settings's default email sender info"
+msgid "Email Address"
+msgstr ""
+
+#: saleor/dashboard/sites/forms.py:49
 msgctxt "handle stock by default settings field help text"
 msgid ""
 "This will set the default value of stock handling on product and variant "
 "creation"
 msgstr "Điều này sẽ đặt mặc định các cài đặt kho và loại hàng"
 
-#: saleor/dashboard/sites/forms.py:52
+#: saleor/dashboard/sites/forms.py:60
 msgctxt "Key for chosen authorization method"
 msgid "Key"
 msgstr "Khoá"
 
-#: saleor/dashboard/sites/forms.py:53
+#: saleor/dashboard/sites/forms.py:61
 msgctxt "Password"
 msgid "Password"
 msgstr "Mật khẩu"
@@ -2108,24 +2113,24 @@ msgctxt "Email type"
 msgid "Order confirmation"
 msgstr "Xác nhận Order"
 
-#: saleor/dashboard/templatetags/orders.py:49
+#: saleor/dashboard/templatetags/orders.py:51
 msgctxt "Dashboard message related to an order"
 msgid "Order placed from draft order"
 msgstr ""
 
-#: saleor/dashboard/templatetags/orders.py:54
+#: saleor/dashboard/templatetags/orders.py:56
 #, python-format
 msgctxt "Dashboard message related to an order"
 msgid "Payment was voided by %(user_name)s"
 msgstr "Thanh toán bị trống bởi %(user_name)s"
 
-#: saleor/dashboard/templatetags/orders.py:60
+#: saleor/dashboard/templatetags/orders.py:62
 #, python-format
 msgctxt "Dashboard message related to an order"
 msgid "Successfully refunded: %(amount)s"
 msgstr "Đã hoàn tiền thành công: %(amount)s"
 
-#: saleor/dashboard/templatetags/orders.py:67
+#: saleor/dashboard/templatetags/orders.py:68
 #, python-format
 msgctxt "Dashboard message related to an order"
 msgid "Successfully captured: %(amount)s"
@@ -2224,3 +2229,31 @@ msgstr ""
 msgctxt "Dashboard message related to an order"
 msgid "The payment was failed by %(user_name)s"
 msgstr ""
+
+#~ msgctxt "Voucher list sorting option"
+#~ msgid "min_amount_spent"
+#~ msgstr "số_tiền_thấp_nhất"
+
+#~ msgctxt "Product"
+#~ msgid "Products"
+#~ msgstr "Sản phẩm"
+
+#~ msgctxt "Collections"
+#~ msgid "Collections"
+#~ msgstr "Bộ sưu tập"
+
+#~ msgctxt "Categories"
+#~ msgid "Categories"
+#~ msgstr "Thư mục"
+
+#~ msgctxt "Page list url filter label"
+#~ msgid "URL"
+#~ msgstr "Địa chỉ"
+
+#~ msgctxt "Override price"
+#~ msgid "Selling price override"
+#~ msgstr "Ghi đè giá"
+
+#~ msgctxt "Currency amount"
+#~ msgid "Cost price"
+#~ msgstr "Chi phí"
