@@ -11,14 +11,20 @@ from django.utils.translation import gettext_lazy as _, pgettext_lazy
 from django_prices.utils.formatting import get_currency_fraction
 from sentry_sdk.integrations.django import DjangoIntegration
 
+from pathlib import Path
+import environ
+
+ROOT_DIR = Path(__file__).parents[1]
+env = environ.Env()
+env.read_env(str(ROOT_DIR / ".env"))
 
 def get_list(text):
     return [item.strip() for item in text.split(",")]
 
 
 def get_bool_from_env(name, default_value):
-    if name in os.environ:
-        value = os.environ[name]
+    if name in env:
+        value = env[name]
         try:
             return ast.literal_eval(value)
         except ValueError as e:
@@ -26,7 +32,7 @@ def get_bool_from_env(name, default_value):
     return default_value
 
 
-DEBUG = get_bool_from_env("DEBUG", True)
+DEBUG = get_bool_from_env("DEBUG", False)
 
 SITE_ID = 1
 
@@ -60,52 +66,12 @@ DATABASES = {
 }
 
 
-TIME_ZONE = "America/Chicago"
-LANGUAGE_CODE = "en"
+TIME_ZONE = "America/Fortaleza"
+LANGUAGE_CODE = "pt-br"
 LANGUAGES = [
-    ("ar", _("Arabic")),
-    ("az", _("Azerbaijani")),
-    ("bg", _("Bulgarian")),
-    ("bn", _("Bengali")),
-    ("ca", _("Catalan")),
-    ("cs", _("Czech")),
-    ("da", _("Danish")),
-    ("de", _("German")),
-    ("el", _("Greek")),
     ("en", _("English")),
     ("es", _("Spanish")),
-    ("es-co", _("Colombian Spanish")),
-    ("et", _("Estonian")),
-    ("fa", _("Persian")),
-    ("fr", _("French")),
-    ("hi", _("Hindi")),
-    ("hu", _("Hungarian")),
-    ("hy", _("Armenian")),
-    ("id", _("Indonesian")),
-    ("is", _("Icelandic")),
-    ("it", _("Italian")),
-    ("ja", _("Japanese")),
-    ("ko", _("Korean")),
-    ("lt", _("Lithuanian")),
-    ("mn", _("Mongolian")),
-    ("nb", _("Norwegian")),
-    ("nl", _("Dutch")),
-    ("pl", _("Polish")),
-    ("pt", _("Portuguese")),
     ("pt-br", _("Brazilian Portuguese")),
-    ("ro", _("Romanian")),
-    ("ru", _("Russian")),
-    ("sk", _("Slovak")),
-    ("sq", _("Albanian")),
-    ("sr", _("Serbian")),
-    ("sw", _("Swahili")),
-    ("sv", _("Swedish")),
-    ("th", _("Thai")),
-    ("tr", _("Turkish")),
-    ("uk", _("Ukrainian")),
-    ("vi", _("Vietnamese")),
-    ("zh-hans", _("Simplified Chinese")),
-    ("zh-hant", _("Traditional Chinese")),
 ]
 LOCALE_PATHS = [os.path.join(PROJECT_ROOT, "locale")]
 USE_I18N = True
@@ -276,7 +242,7 @@ INSTALLED_APPS = [
 ]
 
 
-ENABLE_DEBUG_TOOLBAR = get_bool_from_env("ENABLE_DEBUG_TOOLBAR", False)
+ENABLE_DEBUG_TOOLBAR = get_bool_from_env("ENABLE_DEBUG_TOOLBAR", True)
 if ENABLE_DEBUG_TOOLBAR:
     # Ensure the debug toolbar is actually installed before adding it
     try:
@@ -297,10 +263,15 @@ if ENABLE_DEBUG_TOOLBAR:
         "debug_toolbar.panels.timer.TimerPanel",
         "debug_toolbar.panels.headers.HeadersPanel",
         "debug_toolbar.panels.request.RequestPanel",
+        "debug_toolbar.panels.templates.TemplatesPanel",
         "debug_toolbar.panels.sql.SQLPanel",
         "debug_toolbar.panels.profiling.ProfilingPanel",
     ]
     DEBUG_TOOLBAR_CONFIG = {"RESULTS_CACHE_SIZE": 100}
+    import socket
+    import os
+    hostname, _, ips = socket.gethostbyname_ex(socket.gethostname())
+    INTERNAL_IPS = [ip[:-1] + '1' for ip in ips] + INTERNAL_IPS
 
 ENABLE_SILK = get_bool_from_env("ENABLE_SILK", False)
 if ENABLE_SILK:
@@ -354,8 +325,8 @@ AUTH_PASSWORD_VALIDATORS = [
     }
 ]
 
-DEFAULT_COUNTRY = os.environ.get("DEFAULT_COUNTRY", "US")
-DEFAULT_CURRENCY = os.environ.get("DEFAULT_CURRENCY", "USD")
+DEFAULT_COUNTRY = os.environ.get("DEFAULT_COUNTRY", "BR")
+DEFAULT_CURRENCY = os.environ.get("DEFAULT_CURRENCY", "BRL")
 DEFAULT_DECIMAL_PLACES = get_currency_fraction(DEFAULT_CURRENCY)
 DEFAULT_MAX_DIGITS = 12
 DEFAULT_CURRENCY_CODE_LENGTH = 3
