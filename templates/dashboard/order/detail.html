@@ -215,7 +215,7 @@
             {% if order.is_shipping_required or order.is_draft %}
               <div class="card-content card-border">
                 <span class="card-title black-text">
-                  {% trans "Shipping address" context "" %}
+                  {% trans "Shipping address" context "Order detail tab" %}
                   <span class="right">
                     <a href="{% url "dashboard:address-edit" order_pk=order.pk address_type="shipping" %}" class="btn-flat waves-effect">
                       {% trans "Edit" context "Dashboard edit action" %}
@@ -231,7 +231,7 @@
             {% endif %}
             <div class="card-content">
               <span class="card-title black-text">
-                {% trans "Billing address" context "" %}
+                {% trans "Billing address" context "Order detail tab" %}
                 <span class="right">
                   <a href="{% url "dashboard:address-edit" order_pk=order.pk address_type="billing" %}" class="btn-flat waves-effect">
                     {% trans "Edit" context "Dashboard edit action" %}
